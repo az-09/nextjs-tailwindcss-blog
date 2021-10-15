@@ -1,21 +1,5 @@
-import Layout from "../components/Layout";
-import { getSortedPostsData } from '../lib/posts'
-import Blog from "../components/Blog";
+import About from "./about";
 
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
-
-export default function Home({ allPostsData }) {
-  return (
-    <Layout>
-      <Blog allPostsData={allPostsData}/>
-    </Layout>
-  );
+export default function Home() {
+  return <About/>;
 };

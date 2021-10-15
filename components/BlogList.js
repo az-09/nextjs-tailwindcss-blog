@@ -1,13 +1,11 @@
-import { userData } from '../constants/data'
 import Link from 'next/link'
-import Date from '../components/date'
+import Date from '../utils/date'
 
-export default function Blog({ allPostsData }) {
+export default function BlogList({ allPostsData }) {
     return (
-        <section>
+
             <div className="max-w-6xl mx-auto h-48">
                 <ul className="mt-4">
-
                     {allPostsData.map(({ id, date, title, description }) => (
                         <li className="px-8 py-2 m-0 mt-4 border-b border-card-border hover:bg-gray-100" key={id}>
                             <Link href={`/posts/${id}`}>
@@ -21,6 +19,6 @@ export default function Blog({ allPostsData }) {
                     ))}
                 </ul>
             </div>
-        </section>
+
     )
 }
