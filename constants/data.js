@@ -1,6 +1,6 @@
 export const userData = {
     githubUsername: "az-09",
-    name: "Tae Hee Choi",
+    name: "taeheechoi",
     designation: "Developer",
     avatarUrl: "/avatar.png",
     email: "programmer.az09@gmail.com",
