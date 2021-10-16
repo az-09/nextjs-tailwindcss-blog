@@ -10,7 +10,7 @@ export default function NavBar() {
         <div className="w-full h-16 border-b border-[#1f2937] flex items-center justify-center">
             <div className="w-11/12 md:w-full max-w-3xl flex flex-row justify-between">
                 <Link href="/">
-                    <div className="text-xl font-bold md:text-2xl text-[#FF7300]">{userData.name}</div>
+                    <div className="text-xl font-bold md:text-2xl text-blue-900">{userData.name}</div>
                 </Link>
                 <div className="space-x-20  flex flex-row items-center">
                     <ActiveLink href="/blog" title="blog" />

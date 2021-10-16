@@ -8,7 +8,7 @@ export default function About() {
       <div className="flex flex-col items-center">
         <Image
           priority
-          src="/images/profile.jpg"
+          src={userData.about.imgUrl}
           className="rounded-full"
           height={144}
           width={144}

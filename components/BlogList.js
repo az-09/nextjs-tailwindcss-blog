@@ -7,8 +7,7 @@ export default function BlogList({ allPostsData }) {
             <div className="max-w-6xl mx-auto h-48">
                 <ul>
                     {allPostsData.map(({ id, date, title, description }) => (
-                        <li className="text-xl text-gray-700 px-8 py-2 border-b hover:text-[]" key={id}>
-                            
+                        <li className="text-xl text-gray-700 px-8 py-2 border-b hover:bg-blue-100" key={id}>
                             <Link href={`/posts/${id}`}>
                                 <a>
                                     <div className="text-xl font-medium">{title}</div>
