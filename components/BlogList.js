@@ -5,9 +5,9 @@ export default function BlogList({ allPostsData }) {
     return (
 
             <div className="max-w-6xl mx-auto h-48">
-                <ul className="mt-4">
+                <ul>
                     {allPostsData.map(({ id, date, title, description }) => (
-                        <li className="px-8 py-2 m-0 mt-4 border-b border-card-border hover:bg-gray-100" key={id}>
+                        <li className="px-8 py-2 border-b border-card-border hover:text-blue-800" key={id}>
                             <Link href={`/posts/${id}`}>
                                 <a>
                                     <div className="text-xl font-medium">{title}</div>
