@@ -4,8 +4,6 @@ export const userData = {
     designation: "Developer",
     avatarUrl: "/avatar.png",
     email: "programmer.az09@gmail.com",
-    phone: "",
-    address: "",
     projects: [
         {
             title: "Lotto Combo",
@@ -20,32 +18,14 @@ export const userData = {
     ],
     about: {
         title:
-            "I'm a developer that loves building software applications and learning new technologies.",
+            "I am Tae Hee Choi passionate about developing applications and automation.",
         description: [
-            ``,
-            ``,
-            ``,
+            `I joined the party of programming world a little bit late as a middle-aged man,
+            but I have a big hope that my passion in learning programming will bring me fortune and open a door to a world where I can communicate with you.`,
+            `I will share my learnings as much as possible, as easy as possible and as concise as possible with you, so stay tuned.`,
+            `English writing is difficult than writing codes.`,
         ],
-        currentProject: "Lotto Combo",
-        currentProjectUrl: "https://lottocombo.taeheechoi.com",
-    },
-    experience: [
-        {
-            title: "Developer",
-            company: "Confluent Medical",
-            year: "2016",
-            companyLink: "https://confluentmedical.com",
-            desc: "Developing ERP customizations, integrating ERP with 3rd party applications.",
-        },
-        {
-            title: "Developer",
-            company: "Fox Racing Shox",
-            year: "2011",
-            companyLink: "https://www.ridefox.com",
-            desc: "Developing ERP customizations, integrating ERP with 3rd party applications.",
-        },
-    ],
-   
+    },   
     socialLinks: {
         linkedin: "https://www.linkedin.com/in/tae-hee-c-68b130172/",
         github: "https://github.com/az-09",
