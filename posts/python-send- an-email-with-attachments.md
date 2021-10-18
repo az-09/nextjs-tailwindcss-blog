@@ -48,7 +48,7 @@ date: '2021-01-01'
 
 6. install dotenv library to use .env file
     ```
-        $pip install python-dotenv
+        $ pip install python-dotenv
     ```
 
 7. Open gmail.py and copy/paste following codes
@@ -112,8 +112,7 @@ date: '2021-01-01'
 
 8. Run gmai..py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
-### Source
-- https://github.com/az-09/python-send-email-with-attachments
+### [Github](https://github.com/az-09/python-send-email-with-attachments)
 
 ### References
 - https://realpython.com/python-send-email

@@ -51,7 +51,7 @@ export const userData = {
     ],
     about: {
         title:
-            "I am Tae Hee Choi passionate about developing applications and automation.",
+            "I am TaeHee Choi passionate about developing applications and automation.",
         description: [
             `I joined the party of web programming world a little bit late as a middle-aged man,
             but I have a big hope that my passion in learning programming will bring me luck and open a door to a world where I can communicate with you.`,
