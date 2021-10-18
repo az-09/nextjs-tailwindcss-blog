@@ -20,7 +20,7 @@ export default function ActiveLink({ href, title}) {
                         width="16"
                         height="16"
                         fill="currentColor"
-                        className="bi bi-arrow-down inline-block h-3 w-3"
+                        className="bi bi-arrow-down inline-block h-3 w-3 invisible md:visible"
                         viewBox="0 0 16 16"
                     >
                         <path
