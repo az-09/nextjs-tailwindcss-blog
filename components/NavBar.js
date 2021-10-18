@@ -12,7 +12,7 @@ export default function NavBar() {
                 <Link href="/">
                     <div className="text-xl font-bold md:text-2xl text-blue-900">{userData.name}</div>
                 </Link>
-                <div className="space-x-20  flex flex-row items-center">
+                <div className="space-x-10 md:space-x-20  flex flex-row items-center">
                     <ActiveLink href="/blog" title="blog" />
                     <ActiveLink href="/project" title="project" />
                     <ActiveLink href="/about" title="about" />
