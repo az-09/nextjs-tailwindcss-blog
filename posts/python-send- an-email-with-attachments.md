@@ -112,5 +112,8 @@ date: '2021-01-01'
 
 8. Run gmai..py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
+### Source
+- https://github.com/az-09/python-send-email-with-attachments
+
 ### References
 - https://realpython.com/python-send-email
