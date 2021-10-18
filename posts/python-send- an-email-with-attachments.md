@@ -3,8 +3,8 @@ title: 'Python - Send an email with attachments'
 description: 'Send an email with attachments using Python and Gmail smtp'
 date: '2021-01-01'
 ---
-
-0. End result
+### Steps
+0. End result. Email with 2 attachments. data1.csv, data2.csv
 
     ![](/python-send-an-email-with-attachments/0.jpg?raw=true)
 

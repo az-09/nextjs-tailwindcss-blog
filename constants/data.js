@@ -7,10 +7,10 @@ export const userData = {
     projects: [
         {
             title: "Blog",
-            link: "https://taeheechoi.com",
+            link: "https://nextjs-tailwindcss-blog-nine.vercel.app/",
             imgUrl: "/blog.jpg",
             description: [`My blog to share my learnings in life and programming. - 2021`,],
-            stack: "NextJs, Tailwindcss, Docker, AWS",
+            stack: "NextJs, Tailwindcss, Vercel",
             github: "https://github.com/az-09/nextjs-tailwindcss-blog",
 
         },
