@@ -54,7 +54,7 @@ export const userData = {
             "I am Tae Hee Choi passionate about developing applications and automation.",
         description: [
             `I joined the party of web programming world a little bit late as a middle-aged man,
-            but I have a big hope that my passion in learning programming will bring me fortune and open a door to a world where I can communicate with you.`,
+            but I have a big hope that my passion in learning programming will bring me luck and open a door to a world where I can communicate with you.`,
             `I will share my learnings as much as possible, as easy as possible and as concise as possible with you, so stay tuned.`,
             `--Start simple and add a block one at a time--`,
         ],
