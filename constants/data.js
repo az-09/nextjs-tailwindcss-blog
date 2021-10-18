@@ -6,6 +6,15 @@ export const userData = {
     email: "programmer.az09@gmail.com",
     projects: [
         {
+            title: "Blog",
+            link: "https://taeheechoi.com",
+            imgUrl: "/blog.jpg",
+            description: [`My blog to share my learnings in life and programming. - 2021`,],
+            stack: "NextJs, Tailwindcss, Docker, AWS",
+            github: "https://github.com/az-09/nextjs-tailwindcss-blog",
+
+        },
+        {
             title: "Lotto Combo",
             link: "https://lottocombo.taeheechoi.com",
             imgUrl: "/lottocombo.jpg",
@@ -23,20 +32,22 @@ export const userData = {
             github: "https://github.com/az-09/mecontacts-django-react-iis",
         },
         {
+            title: "Stock Monitor",
+            link: "",
+            imgUrl: "/stockmonitor.jpg",
+            description: [`Notification email when app detects abonormal activities in stocks monitored. - 2020`,],
+            stack: "Python, GoogleAPI",
+            github: "",
+        },
+        {
             title: "Lost In Investment",
             link: "https://lostininvestment.taeheechoi.com",
             imgUrl: "lostininvestment.jpg",
-            description: [`Analyzing stock trading based on volume and price actions. - 2019`,],
+            description: [`Analyzing a specific stock based on volume and price actions. - 2019`,],
             stack: "Flask, Docker, AWS",
             github: "https://github.com/az-09/mecontacts-django-react-iis",
         },
-        {
-            title: "ME Contacts",
-            link: "https://mecontacts.taeheechoi.com",
-            description: [`Analyzing stock volumes and price actions`,],
-            stack: "React, Django, Postgres, Docker, AWS",
-            github: "https://github.com/az-09/mecontacts-django-react-iis",
-        },
+      
     ],
     about: {
         title:
