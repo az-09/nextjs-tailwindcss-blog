@@ -6,14 +6,14 @@ date: '2021-01-01'
 
 0. End result
 
-    ![](../public/python-send-an-email-with-attachments/0.jpg?raw=true)
+    ![](/python-send-an-email-with-attachments/0.jpg?raw=true)
 
 1. Create an app password on Gmail. https://myaccount.google.com/security
 
-    ![](../public/python-send-an-email-with-attachments/1.jpg?raw=true)
-    ![](../public/python-send-an-email-with-attachments/2.jpg?raw=true)
-    ![](../public/python-send-an-email-with-attachments/3.jpg?raw=true)
-    ![](../public/python-send-an-email-with-attachments/4.jpg?raw=true)
+    ![](/python-send-an-email-with-attachments/1.jpg?raw=true)
+    ![](/python-send-an-email-with-attachments/2.jpg?raw=true)
+    ![](/python-send-an-email-with-attachments/3.jpg?raw=true)
+    ![](/python-send-an-email-with-attachments/4.jpg?raw=true)
 
 2. Make a new directory, cd into the folder and open VS code.
     ```
