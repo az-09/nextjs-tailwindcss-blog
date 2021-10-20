@@ -6,14 +6,15 @@ date: '2021-01-01'
 ### Steps
 0. End result. Email with 2 attachments. data1.csv, data2.csv
 
-    ![](/python-send-an-email-with-attachments/0.jpg?raw=true)
+
+    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/0.jpg?raw=true)
 
 1. Create an app password on Gmail. https://myaccount.google.com/security
 
-    ![](/python-send-an-email-with-attachments/1.jpg?raw=true)
-    ![](/python-send-an-email-with-attachments/2.jpg?raw=true)
-    ![](/python-send-an-email-with-attachments/3.jpg?raw=true)
-    ![](/python-send-an-email-with-attachments/4.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/1.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/2.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/3.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/4.jpg?raw=true)
 
 2. Make a new directory, cd into the folder and open VS code.
     ```
@@ -110,7 +111,7 @@ date: '2021-01-01'
         email_with_attachment(header='header...', recipient=to_email, body='body...', attachments=attachments)
     ```
 
-8. Run gmai..py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
+8. Run gmai.py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
 ### [Github](https://github.com/az-09/python-send-email-with-attachments)
 
