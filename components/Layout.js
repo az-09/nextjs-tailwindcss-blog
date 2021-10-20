@@ -23,7 +23,7 @@ export default function Layout({ children, pageTitle, blog }) {
                 <div className="w-11/12 md:w-full max-w-2xl mx-auto my-8 flex-grow">
                     {children}
                     {blog && (
-                        <div className="flex flex-col items-center">
+                        <div className="max-w-6xl mx-auto h-48 flex flex-col items-center">
                             <Link href="/blog">
                                 <a className="my-5">← Back to Blog</a>
                             </Link>
