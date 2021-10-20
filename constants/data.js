@@ -53,10 +53,10 @@ export const userData = {
         title:
             "I am Taehee Choi passionate about developing applications and automation.",
         description: [
-            `I joined the party of web programming world a little bit late as a middle-aged man,
+            `I joined the party of web programming world a little bit late after being around in ERP developments,
             but I have a big hope that my passion in learning programming will bring me luck and open a door to a world where I can communicate with you.`,
             `I will share my learnings as much as possible, as easy as possible and as concise as possible with you, so stay tuned.`,
-            `--Start simple and add a block one at a time--`,
+            `-- Start simple and add a block one at a time -- by me`,
         ],
         imgUrl: "/profile.jpg",
     },   
