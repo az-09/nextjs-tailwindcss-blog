@@ -1,5 +1,5 @@
 ---
-title: 'Configure Django API and React App in IIS '
+title: 'Configure Django API and React app in IIS '
 description: 'Steps to configure Django and React apps in Windows IIS enviroment.'
 date: '2021-01-01'
 ---
