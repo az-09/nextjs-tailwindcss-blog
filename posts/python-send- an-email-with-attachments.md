@@ -7,14 +7,14 @@ date: '2021-01-01'
 0. End result. Email with 2 attachments. data1.csv, data2.csv
 
 
-    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
 
 1. Create an app password on Gmail. https://myaccount.google.com/security
 
-    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/1.jpg?raw=true)
-    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/2.jpg?raw=true)
-    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/3.jpg?raw=true)
-    ![](https://github.com/az-09/python-send-an-email-with-attachments/blob/main/images/4.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/1.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/2.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/3.jpg?raw=true)
+    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/4.jpg?raw=true)
 
 2. Make a new directory, cd into the folder and open VS code.
     ```
