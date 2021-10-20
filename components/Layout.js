@@ -17,10 +17,9 @@ export default function Layout({ children, pageTitle, blog }) {
             </Head>
             <div className="flex flex-col min-h-screen">
                 <div className="w-11/12 md:w-full h-16 border-b border-[#1f2937] flex items-center justify-center">
-                    <div className="w-full max-w-3xl flex flex-row justify-between">
-                        <NavBar />
-                    </div>
+                    <NavBar />
                 </div>
+
                 <div className="w-11/12 md:w-full max-w-2xl mx-auto my-8 flex-grow">
                     {children}
                     {blog && (
@@ -34,12 +33,7 @@ export default function Layout({ children, pageTitle, blog }) {
                 <div className="w-11/12 md:w-full h-16 flex items-center justify-center">
                     taeheechoi © {new Date().getFullYear()}
                 </div>
-
-
-
-
             </div>
-
         </div>
     )
 }

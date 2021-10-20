@@ -7,7 +7,7 @@ export default function NavBar() {
     const router = useRouter();
 
     return (
-        <>
+        <div className="w-11/12 md:w-full max-w-3xl flex flex-row justify-between">
             <Link href="/">
                 <div className="text-xl font-bold md:text-2xl text-blue-900">{userData.name}</div>
             </Link>
@@ -32,7 +32,7 @@ export default function NavBar() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-linkedin h-5 w-5" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
                 </a>
             </div>
-        </>
+        </div>
     
     )
 
