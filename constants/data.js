@@ -18,7 +18,7 @@ export const userData = {
             title: "Lotto Combo",
             link: "https://lottocombo.taeheechoi.com",
             imgUrl: "/lottocombo.jpg",
-            description: [`Analyzing number of occurrences from combinations of lottery winning numbers. - 2021`,],
+            description: [`Analyzing frequency of combinations in lottery winning numbers. - 2021`,],
             stack: "React, Django, Postgres, Docker, AWS",
             github: "https://github.com/az-09/lotto-combo-deployment",
 
@@ -27,7 +27,7 @@ export const userData = {
             title: "ME Contacts",
             link: "https://mecontacts.taeheechoi.com",
             imgUrl: "/mecontacts.jpg",
-            description: [`Simple CRUD contact app with authentication and serach. Tutorial from Cryce Truly. - 2021`,],
+            description: [`Simple CRUD contact app with authentication and search. Tutorial from Cryce Truly. - 2021`,],
             stack: "React, Django, Postgres, Docker, AWS",
             github: "https://github.com/az-09/mecontacts-django-react-iis",
         },
