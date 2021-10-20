@@ -4,7 +4,7 @@ description: 'Use google webhook to send a message to chat space'
 date: '2021-01-01'
 ---
 ### Steps
-0. End result. Email with 2 attachments. data1.csv, data2.csv
+0. End result. A message on chat space.
 
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/0.jpg?raw=true)
 
