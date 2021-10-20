@@ -16,7 +16,7 @@ export default function Layout({ children, pageTitle, blog }) {
                 <title>{pageTitle}</title>
             </Head>
             <div className="flex flex-col min-h-screen">
-                <div className="w-11/12 md:w-full h-16 border-b border-[#1f2937] flex items-center justify-center">
+                <div className="w-full h-16 px-3 border-b border-[#1f2937] flex items-center justify-center">
                     <NavBar />
                 </div>
 

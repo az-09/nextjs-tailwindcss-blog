@@ -7,7 +7,7 @@ export default function NavBar() {
     const router = useRouter();
 
     return (
-        <div className="w-11/12 md:w-full max-w-3xl flex flex-row justify-between">
+        <div className="w-full max-w-3xl flex flex-row justify-between">
             <Link href="/">
                 <div className="text-xl font-bold md:text-2xl text-blue-900">{userData.name}</div>
             </Link>
