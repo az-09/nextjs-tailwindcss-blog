@@ -5,12 +5,9 @@ date: '2021-01-01'
 ---
 ### Steps
 0. End result. Email with 2 attachments. data1.csv, data2.csv
-
-
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
 
 1. Create an app password on Gmail. https://myaccount.google.com/security
-
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/1.jpg?raw=true)
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/2.jpg?raw=true)
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/3.jpg?raw=true)
@@ -82,7 +79,6 @@ date: '2021-01-01'
         message['Subject'] = Header(header, 'utf-8')
 
         if(attachments is not None):
-
             message.attach(MIMEText(body, 'plain', 'utf-8'))
 
             for attachment in attachments:
