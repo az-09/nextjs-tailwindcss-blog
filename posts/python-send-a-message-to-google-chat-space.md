@@ -21,33 +21,33 @@ date: '2021-01-01'
 
 5. Create a new python file and paste below code. Update url to the webhook eg) demo.py
     ```python
-        #  https://developers.google.com/chat/quickstart/incoming-bot-python
-        from json import dumps
+    #  https://developers.google.com/chat/quickstart/incoming-bot-python
+    from json import dumps
 
-        from httplib2 import Http
+    from httplib2 import Http
 
 
-        def main():
-            """Hangouts Chat incoming webhook quickstart."""
-            url = '<INCOMING-WEBHOOK-URL>'
-            bot_message = {
-                'text' : 'Hello from a Python script!'}
+    def main():
+        """Hangouts Chat incoming webhook quickstart."""
+        url = '<INCOMING-WEBHOOK-URL>'
+        bot_message = {
+            'text' : 'Hello from a Python script!'}
 
-            message_headers = {'Content-Type': 'application/json; charset=UTF-8'}
+        message_headers = {'Content-Type': 'application/json; charset=UTF-8'}
 
-            http_obj = Http()
+        http_obj = Http()
 
-            response = http_obj.request(
-                uri=url,
-                method='POST',
-                headers=message_headers,
-                body=dumps(bot_message),
-            )
+        response = http_obj.request(
+            uri=url,
+            method='POST',
+            headers=message_headers,
+            body=dumps(bot_message),
+        )
 
-            print(response)
+        print(response)
 
-        if __name__ == '__main__':
-            main()
+    if __name__ == '__main__':
+        main()
     ```
 6. Run demo.py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 

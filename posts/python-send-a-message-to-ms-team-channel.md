@@ -42,7 +42,7 @@ date: '2021-01-01'
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/12.jpg?raw=true)
 
 12. Create a new python file and paste below code. Update url to the webhook eg) demo.py
-```python
+    ```python
     #  https://developers.google.com/chat/quickstart/incoming-bot-python
     from json import dumps
 
@@ -70,7 +70,7 @@ date: '2021-01-01'
 
     if __name__ == '__main__':
         main()
-```
+    ```
 5. Run demo.py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
 ### [Github](https://github.com/az-09/python-send-a-message-to-team-channel.git)
