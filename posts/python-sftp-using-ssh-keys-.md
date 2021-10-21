@@ -107,10 +107,7 @@ date: '2021-01-01'
         sftp_host = os.getenv("SFTP_IPADDRESS")
         sftp_userid = os.getenv("SFTP_USERID")
         sftp_private_key = os.getenv("SFTP_PRIVATE_KEY")
-
-        cnopts = pysftp.CnOpts()
-        cnopts.hostkeys = None
-    
+   
         try:
             with pysftp.Connection(host=sftp_host, username=sftp_userid, private_key=sftp_private_key, port=22, cnopts=cnopts) as sftp:
                 with sftp.cd('sftp'):
