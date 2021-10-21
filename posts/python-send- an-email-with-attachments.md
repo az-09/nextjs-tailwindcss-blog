@@ -37,19 +37,19 @@ date: '2021-01-01'
         +-- data2.csv
     ```
 
-5. Open .env and add variables
+5. Open .env and add variables.
     ```
     EMAIL_ID=youremail@gmail.com
     EMAIL_PASSWORD=app password 16 characters
     TO_EMAIL=test1@gmail.com;test2@gmail.com
     ```
 
-6. install dotenv library to use .env file
+6. install dotenv library to use .env file.
     ```
     $ pip install python-dotenv
     ```
 
-7. Open gmail.py and copy/paste following codes
+7. Open gmail.py and copy/paste following codes.
     ```python
     import os
     import smtplib

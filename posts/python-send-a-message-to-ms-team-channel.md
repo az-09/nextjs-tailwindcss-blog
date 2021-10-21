@@ -7,41 +7,41 @@ date: '2021-01-01'
 0. End result. A message on channel.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/0.jpg?raw=true)
 
-1. Join or create a team https://mail.google.com/chat/u/0/ and create a new space
+1. Join or create a team https://mail.google.com/chat/u/0/ and create a new space.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/1.jpg?raw=true)
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/2.jpg?raw=true)
 
-2. Create a team from scratch
+2. Create a team from scratch.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/3.jpg?raw=true)
 
-3. Team for either private or public
+3. Team for either private or public.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/4.jpg?raw=true)
 
-4. Team name eg) Demo
+4. Team name. eg) Demo
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/5.jpg?raw=true)
 
-5. More options on channel eg) Demo >> General >> More options
+5. More options on channel. eg) Demo >> General >> More options
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/6.jpg?raw=true)
 
-6. Connectors to add a new incoming webhook
+6. Connectors to add a new incoming webhook.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/7.jpg?raw=true)
 
-7. Add Incoming Webhook
+7. Add Incoming Webhook.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/8.jpg?raw=true)
 
-8. Connectors to configure the incoming webhook
+8. Connectors to configure the incoming webhook.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/9.jpg?raw=true)
 
-9. Configure Incoming Webhook
+9. Configure Incoming Webhook.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/10.jpg?raw=true)
 
-10. Name of the webhook
+10. Name of the webhook.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/11.jpg?raw=true)
 
-11. Copy the webhook url
+11. Copy the webhook url.
     ![](https://github.com/az-09/python-send-a-message-to-team-channel/blob/main/images/12.jpg?raw=true)
 
-12. Create a new python file and paste below code. Update url to the webhook eg) demo.py
+12. Create a new python file and paste below code. Update url to the webhook. eg) demo.py
     ```python
     #  https://developers.google.com/chat/quickstart/incoming-bot-python
     from json import dumps

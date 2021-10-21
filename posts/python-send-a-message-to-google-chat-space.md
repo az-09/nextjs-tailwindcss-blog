@@ -7,19 +7,19 @@ date: '2021-01-01'
 0. End result. A message on chat space.
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/0.jpg?raw=true)
 
-1. Open chat https://mail.google.com/chat/u/0/ and create a new space
+1. Open chat https://mail.google.com/chat/u/0/ and create a new space.
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/1.jpg?raw=true)
 
-2. Enter a new space name eg) Demo
+2. Enter a new space name. eg) Demo
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/2.jpg?raw=true)
 
-3. Click dropdown arrow on the space eg) Demo and select Manage webhooks
+3. Click dropdown arrow on the space. eg) Demo and select Manage webhooks
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/3.jpg?raw=true)
 
-4. Copy a webhook address
+4. Copy a webhook address.
     ![](https://github.com/az-09/python-send-a-message-to-google-chat-space/blob/main/images/4.jpg?raw=true)
 
-5. Create a new python file and paste below code. Update url to the webhook eg) demo.py
+5. Create a new python file and paste below code. Update url to the webhook. eg) demo.py
     ```python
     #  https://developers.google.com/chat/quickstart/incoming-bot-python
     from json import dumps

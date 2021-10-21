@@ -10,7 +10,7 @@ date: '2021-01-01'
     ```
     ![](https://github.com/az-09/python-sftp-using-ssh-keys/blob/main/images/0.jpg?raw=true)
 
-1. Create a virtual enviroment and activate
+1. Create a virtual enviroment and activate.
     ```
     $ python3 -m venv venv
     $ source venv/bin/activate
@@ -26,7 +26,7 @@ date: '2021-01-01'
         ERROR: Failed building wheel for pysftp
     (venv) $ pip install pysftp
     ```
-3. Generate private and public keys
+3. Generate private and public keys.
     ```
     (venv) $ ssh-keygen -t rsa -b 4096 -C "demo for taeheechoi.com"
         Generating public/private rsa key pair.
@@ -50,24 +50,24 @@ date: '2021-01-01'
         |             .+  |
         +----[SHA256]-----+
     ```
-4. Confirm keys are generated
+4. Confirm keys are generated.
     ```
     (venv) $ ls ~/.ssh/id_*
     /home/ubuntu/.ssh/id_rsa  /home/ubuntu/.ssh/id_rsa.pub
     ```
-5. Copy private key to root within VS code 
+5. Copy private key to root within VS code.
     ```
     (venv) $ cp ~/.ssh/id_rsa .
     ```
-6. Restart ssh service
+6. Restart ssh service.
     ```
     (venv) $ sudo service ssh restart
     ```
-7. Rename public key to authorized_keys
+7. Rename public key to authorized_keys.
     ```
     (venv) $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
     ```
-8. Edit sshd_config to allow to use keys
+8. Edit sshd_config to allow to use keys.
     ```
     (venv) $ sudo vi /etc/ssh/sshd_config
         Click Insert key
@@ -75,21 +75,21 @@ date: '2021-01-01'
             AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
         Click Esc then type :wq
     ```
-9. Restart ssh service
+9. Restart ssh service.
     ```
     (venv) $ sudo service ssh restart
     ```
-10. Create a target folder "sftp" on the server
+10. Create a target folder "sftp" on the server.
     ```
     (venv) $ mkdir ~/sftp
     ```
-11. Create .env file to enter host and credentials
+11. Create .env file to enter host and credentials.
     ```
     SFTP_IPADDRESS=127.0.0.1
     SFTP_USERID=ubuntu
     SFTP_PRIVATE_KEY=id_rsa
     ```
-12. Create a new python file and paste below code. Update url to the webhook eg) demo.py
+12. Create a new python file and paste below code.  eg) demo.py
     ```python
     import os
     from pathlib import Path
