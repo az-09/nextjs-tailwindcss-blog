@@ -83,6 +83,6 @@ date: '2021-01-01'
 
 
 7. Click "Send Request" on test.http file
-    ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/1.jpg?raw=true)
+    ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/2.jpg?raw=true)
 
 ### [Github](https://github.com/az-09/fastapi-run-script-after-post.git)
