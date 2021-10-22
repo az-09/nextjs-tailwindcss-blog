@@ -11,7 +11,6 @@ date: '2021-01-01'
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
     ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/0.jpg?raw=true)
 
-
 1. Create a virtual environment and activate it.
     ```
     $ python3 -m venv venv
@@ -67,7 +66,7 @@ date: '2021-01-01'
         return jobs
 
     @app.post('/jobs', status_code=201)
-    async def add_log(job: Job):
+    async def add_job(job: Job):
         jobs.append(job)
         job_email_with_attachment()
         return jobs
@@ -78,11 +77,10 @@ date: '2021-01-01'
 
 5. Run app.py. Ctrl + F5 or Right click >> "Run Python File in Terminal" within VS Code.
 
-6. Install VS extension "REST Client"
+6. Install VS extension "REST Client."
     ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/1.jpg?raw=true)
 
-
-7. Click "Send Request" on test.http file
+7. Click "Send Request" on test.http file.
     ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/2.jpg?raw=true)
 
 ### [Github](https://github.com/az-09/fastapi-run-script-after-post.git)
