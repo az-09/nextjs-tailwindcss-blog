@@ -20,13 +20,13 @@ date: '2021-01-01'
     $ code .
     ```
 
-3. Create a new virtual enviroment and activate it on terminal within VS Code.
+3. Create a new virtual env and activate it on terminal within VS Code.
     ```
     $ python3 -m venv venv
     $ source venv/bin/activate
     ```
 
-4. Create gmail.py file, .env file (enviroment) and data files for testing on the root directoy.
+4. Create gmail.py file, .env file and data files for testing on the root directory.
     ```
     .
     +-- gmail.py

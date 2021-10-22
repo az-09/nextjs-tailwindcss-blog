@@ -10,7 +10,7 @@ date: '2021-01-01'
     ```
     ![](https://github.com/az-09/python-sftp-using-ssh-keys/blob/main/images/0.jpg?raw=true)
 
-1. Create a virtual enviroment and activate.
+1. Create a virtual environment and activate.
     ```
     $ python3 -m venv venv
     $ source venv/bin/activate

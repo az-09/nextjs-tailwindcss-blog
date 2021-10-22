@@ -7,12 +7,12 @@ date: '2021-01-01'
 - [Send an email with attachments](https://www.taeheechoi.com/posts/python-send-%20an-email-with-attachments) 
 
 ### Steps
-0. End result. Upload two files to sftp server.
+0. End result. Receive an email from server.
     ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
     ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/0.jpg?raw=true)
 
 
-1. Create a virtual enviroment and activate.
+1. Create a virtual environment and activate it.
     ```
     $ python3 -m venv venv
     $ source venv/bin/activate
@@ -22,7 +22,7 @@ date: '2021-01-01'
     (venv) $ pip install fastapi uvicorn[standard] python-dotenv
     (venv) clone https://github.com/az-09/python-send-email-with-attachments.git .
     ```
-3. Rename .env_sample to .env and update variables with your credentails
+3. Rename .env_sample to .env and update environment variables with your credentials.
     ```
     EMAIL_ID=youremail@gmail.com
     EMAIL_PASSWORD=app password 16 characters

@@ -1,6 +1,6 @@
 ---
 title: 'Configure Django API and React app in IIS '
-description: 'Steps to configure Django and React apps in Windows IIS enviroment.'
+description: 'Steps to configure Django and React apps in Windows IIS environment.'
 date: '2021-01-01'
 ---
 
@@ -10,7 +10,7 @@ date: '2021-01-01'
 - Internet Information Services >> World Wide Web Services >> Application Deployment Features >> Check "CGI"
 
 ### Deploy Django API to IIS
-- pip install wfastcgi on virtual enviroment
+- pip install wfastcgi on virtual environment
 - add STATIC_ROOT =  BASE_DIR / 'static' in settings.py
 - python manage.py collectstatic
 - Right click on "Sites" >> Add Website
@@ -34,7 +34,7 @@ date: '2021-01-01'
 - Click OK >> Do you want to create a FastCGI Application for this Executable? >> Click Yes
 - Open "FastCGI Settings" in Computer/Username eg) My-PC\az09
 - Double click one created from above step eg) full path: C:\Developments\python-lotto-combo-api\lottocomboapi\venv\Scripts\python.exe
-- Enviorment Variables >> Click "Collection"
+- Environment Variables >> Click "Collection"
 - Enter "PYTHONPATH", "WSGI_HANDLER", "DJANGO_SETTINGS_MODULE"
 ```        
         PYTHONPATH: C:\Developments\python-lotto-combo-api\lottocomboapi
@@ -74,7 +74,7 @@ date: '2021-01-01'
         Name: Django Handler
 ```    
 Click No if one already exists in "FastCGI Settings" in Computer/Username
-Click Yes if need to create a new one then enter Enviroment Variables
+Click Yes if need to create a new one then enter environment Variables
 
 ### Firewall rule: Port has to be open in order to call API from other computers
 - Open Windows Defender Firewall with Advanced Security 
