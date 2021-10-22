@@ -84,3 +84,9 @@ date: '2021-01-01'
     ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/2.jpg?raw=true)
 
 ### [Github](https://github.com/az-09/fastapi-run-script-after-post.git)
+
+### References
+- https://realpython.com/api-integration-in-python/
+- https://stackoverflow.com/questions/62934384/how-to-add-timestamp-to-each-request-in-uvicorn-logs
+- https://www.jeffastor.com/blog/designing-a-robust-user-model-in-a-fastapi-app
+- https://pydantic-docs.helpmanual.io/usage/validators/
