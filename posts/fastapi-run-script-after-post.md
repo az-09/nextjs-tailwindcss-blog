@@ -85,6 +85,7 @@ date: '2021-01-01'
 
 ### [Github](https://github.com/az-09/fastapi-run-script-after-post.git)
 
+
 ### References
 - https://realpython.com/api-integration-in-python/
 - https://stackoverflow.com/questions/62934384/how-to-add-timestamp-to-each-request-in-uvicorn-logs
