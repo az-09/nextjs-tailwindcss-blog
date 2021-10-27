@@ -1,6 +1,6 @@
 ---
-title: 'Python - Fake Smtp and Test email'
-description: 'How to run a fake smtp and send a test email then save it to mail folder'
+title: 'Python - Fake Smtp and test email'
+description: 'How to run a fake smtp server and send a test email then save it to mail folder'
 date: '2021-01-01'
 ---
 ### Steps
