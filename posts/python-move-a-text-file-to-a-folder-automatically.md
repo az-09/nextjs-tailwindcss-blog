@@ -63,6 +63,6 @@ date: '2021-01-01'
 
 3. Create text files in foo and bar folders. 
 
-4. Create files in other formats in food and bar folders.
+4. Create files in other formats in foo and bar folders.
 
 ### [Github](https://github.com/az-09/python-move-new-file-to-directory)
