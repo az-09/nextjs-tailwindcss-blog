@@ -3,7 +3,7 @@ title: 'FastAPI - Run a function after POST method'
 description: 'Send an email with attachments after POST to job uri'
 date: '2021-01-01'
 ---
-### Prerequsites
+### Prerequisites 
 - [Send an email with attachments](https://www.taeheechoi.com/posts/python-send-%20an-email-with-attachments) 
 
 ### Steps
