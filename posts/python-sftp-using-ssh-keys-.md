@@ -8,7 +8,7 @@ date: '2021-01-01'
     ```
     Files have been uploaded to sftp successfully.
     ```
-    ![](https://github.com/az-09/python-sftp-using-ssh-keys/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/python-sftp-using-ssh-keys/blob/main/images/0.jpg?raw=true)
 
 1. Create a virtual environment and activate.
     ```
@@ -124,4 +124,4 @@ date: '2021-01-01'
 
 13. Run demo.py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
-### [Github](https://github.com/az-09/python-sftp-using-ssh-keys.git)
+### [Github](https://github.com/taeheechoi/python-sftp-using-ssh-keys.git)

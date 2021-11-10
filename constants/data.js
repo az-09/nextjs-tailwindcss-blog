@@ -1,5 +1,5 @@
 export const userData = {
-    githubUsername: "az-09",
+    githubUsername: "taeheechoi",
     name: "taeheechoi",
     designation: "Developer",
     avatarUrl: "/avatar.png",
@@ -11,7 +11,7 @@ export const userData = {
             imgUrl: "/blog.jpg",
             description: [`My blog to share my learnings in life and programming. - 2021`,],
             stack: "NextJs, Tailwindcss, Vercel",
-            github: "https://github.com/az-09/nextjs-tailwindcss-blog",
+            github: "https://github.com/taeheechoi/nextjs-tailwindcss-blog",
 
         },
         {
@@ -20,7 +20,7 @@ export const userData = {
             imgUrl: "/lottocombo.jpg",
             description: [`Analyzing frequency of combinations in lottery winning numbers. - 2021`,],
             stack: "React, Django, Postgres, Docker, AWS",
-            github: "https://github.com/az-09/lotto-combo-deployment",
+            github: "https://github.com/taeheechoi/lotto-combo-deployment",
 
         },
         {
@@ -29,7 +29,7 @@ export const userData = {
             imgUrl: "/mecontacts.jpg",
             description: [`Simple CRUD contact app with authentication and search. Tutorial from Cryce Truly. - 2021`,],
             stack: "React, Django, Postgres, Docker, AWS",
-            github: "https://github.com/az-09/mecontacts-django-react-iis",
+            github: "https://github.com/taeheechoi/mecontacts-django-react-iis",
         },
         {
             title: "Stock Monitor",
@@ -45,7 +45,7 @@ export const userData = {
             imgUrl: "lostininvestment.jpg",
             description: [`Analyzing a specific stock based on volume and price actions. - 2019`,],
             stack: "Flask, Docker, AWS",
-            github: "https://github.com/az-09/mecontacts-django-react-iis",
+            github: "https://github.com/taeheechoi/mecontacts-django-react-iis",
         },
       
     ],
@@ -62,6 +62,6 @@ export const userData = {
     },   
     socialLinks: {
         linkedin: "https://www.linkedin.com/in/tae-hee-c-68b130172/",
-        github: "https://github.com/az-09",
+        github: "https://github.com/taeheechoi",
     }
 };

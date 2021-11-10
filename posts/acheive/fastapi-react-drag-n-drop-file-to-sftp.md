@@ -8,13 +8,13 @@ date: '2021-10-31'
 
 ### Steps
 0. End result. Receive an email from server.
-    ![](https://github.com/az-09/fastapi-react-upload-file-sftp/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/fastapi-react-upload-file-sftp/blob/main/images/0.jpg?raw=true)
 
-    ![](https://github.com/az-09/fastapi-react-upload-file-sftp/blob/main/images/4.jpg?raw=true)
+    ![](https://github.com/taeheechoi/fastapi-react-upload-file-sftp/blob/main/images/4.jpg?raw=true)
 
 1. Clone git. 
     ```
-    clone https://github.com/az-09/fastapi-react-upload-file-sftp.git .
+    clone https://github.com/taeheechoi/fastapi-react-upload-file-sftp.git .
     ```
 
 2. Create a virtual environment for backend and install dependencies then run app. Make sure to generate id_rsa (See prerequisite).  
@@ -73,7 +73,7 @@ date: '2021-10-31'
         const { acceptedFiles, getRootProps, getInputProps } = useDropzone();
     ```
 
-### [Github](https://github.com/az-09/fastapi-react-upload-file-sftp.git)
+### [Github](https://github.com/taeheechoi/fastapi-react-upload-file-sftp.git)
 
 
 ### References

@@ -9,7 +9,7 @@ date: '2021-01-01'
 ### Steps
 0. End result. Output src_path and target_folder name to console.
 
-    ![](https://github.com/az-09/python-move-or-remove-file-then-execute-powershell/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/python-move-or-remove-file-then-execute-powershell/blob/main/images/0.jpg?raw=true)
 
 1. Create demo.py and copy / paste following codes.
     ``` python
@@ -92,4 +92,4 @@ date: '2021-01-01'
 4. Create a text file in foo and bar folders. After the file is removed, output appears.   
 
 
-### [Github](https://github.com/az-09/python-move-or-remove-file-then-execute-powershell.git)
+### [Github](https://github.com/taeheechoi/python-move-or-remove-file-then-execute-powershell.git)

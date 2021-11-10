@@ -8,8 +8,8 @@ date: '2021-01-01'
 
 ### Steps
 0. End result. Receive an email from server.
-    ![](https://github.com/az-09/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
-    ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/python-send-email-with-attachments/blob/master/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/fastapi-run-script-after-post/blob/main/images/0.jpg?raw=true)
 
 1. Create a virtual environment and activate it.
     ```
@@ -19,7 +19,7 @@ date: '2021-01-01'
 2. Install dependencies. 
     ```
     (venv) $ pip install fastapi uvicorn[standard] python-dotenv
-    (venv) clone https://github.com/az-09/python-send-email-with-attachments.git .
+    (venv) clone https://github.com/taeheechoi/python-send-email-with-attachments.git .
     ```
 3. Rename .env_sample to .env and update environment variables with your credentials.
     ```
@@ -78,12 +78,12 @@ date: '2021-01-01'
 5. Run app.py. Ctrl + F5 or Right click >> "Run Python File in Terminal" within VS Code.
 
 6. Install VS extension "REST Client."
-    ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/1.jpg?raw=true)
+    ![](https://github.com/taeheechoi/fastapi-run-script-after-post/blob/main/images/1.jpg?raw=true)
 
 7. Click "Send Request" on test.http file.
-    ![](https://github.com/az-09/fastapi-run-script-after-post/blob/main/images/2.jpg?raw=true)
+    ![](https://github.com/taeheechoi/fastapi-run-script-after-post/blob/main/images/2.jpg?raw=true)
 
-### [Github](https://github.com/az-09/fastapi-run-script-after-post.git)
+### [Github](https://github.com/taeheechoi/fastapi-run-script-after-post.git)
 
 
 ### References

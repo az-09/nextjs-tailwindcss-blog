@@ -5,7 +5,7 @@ date: '2021-01-01'
 ---
 ### Steps
 0. End result. Move only text files created on foo and bar folders to home folder 
-    ![](https://github.com/az-09/python-move-new-file-to-directory/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/python-move-new-file-to-directory/blob/main/images/0.jpg?raw=true)
 
 1. Create demo.py and copy / paste following codes.
     ``` python
@@ -65,4 +65,4 @@ date: '2021-01-01'
 
 4. Create files in other formats in foo and bar folders.
 
-### [Github](https://github.com/az-09/python-move-new-file-to-directory)
+### [Github](https://github.com/taeheechoi/python-move-new-file-to-directory)

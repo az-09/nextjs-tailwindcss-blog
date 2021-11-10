@@ -12,7 +12,7 @@ date: '2021-01-01'
 
     This is a fake e-mail message.'
     ```
-    ![](https://github.com/az-09/python-fake-smtp-test/blob/main/images/0.jpg?raw=true)
+    ![](https://github.com/taeheechoi/python-fake-smtp-test/blob/main/images/0.jpg?raw=true)
 
 1. Create fake-smtp.py and copy / paste following codes.
     ``` python
@@ -91,4 +91,4 @@ date: '2021-01-01'
     $ python fake_email.py 
     ```
 
-### [Github](https://github.com/az-09/python-fake-smtp-test.git)
+### [Github](https://github.com/taeheechoi/python-fake-smtp-test.git)

@@ -45,7 +45,7 @@ date: '2021-01-01'
     ```
 5. Run demo.py. Ctrl + F5 or Right click >> "Run Python File in Terminal"  within VS Code.
 
-### [Github](https://github.com/az-09/python-search-words-using-multiprocessing-mmap.git)
+### [Github](https://github.com/taeheechoi/python-search-words-using-multiprocessing-mmap.git)
 
 ### References
 - https://docs.python.org/3/library/mmap.html
