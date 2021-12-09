@@ -6,6 +6,15 @@ export const userData = {
     email: "programmer.az09@gmail.com",
     projects: [
         {
+            title: "ERP Search",
+            link: "https://erpsearch.taeheechoi.com/",
+            imgUrl: "/erpsearch.jpg",
+            description: [`Search data from multiple ERP systems`,],
+            stack: "React, Redux, Elastic UI, JSON server, Faker",
+            github: "https://github.com/taeheechoi/nextjs-tailwindcss-blog",
+
+        },
+        {
             title: "Blog",
             link: "https://nextjs-tailwindcss-blog-nine.vercel.app/",
             imgUrl: "/blog.jpg",
@@ -35,7 +44,7 @@ export const userData = {
             title: "Stock Monitor",
             link: "",
             imgUrl: "/stockmonitor.jpg",
-            description: [`Notification email when app detects abonormal activities in stocks monitored. - 2020`,],
+            description: [`Notification email when app detects abnormal activities in stocks monitored. - 2020`,],
             stack: "Python, GoogleAPI",
             github: "",
         },

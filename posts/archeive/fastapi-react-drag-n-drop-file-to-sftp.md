@@ -34,7 +34,7 @@ date: '2021-10-31'
 4. Note app.py in backend
 - Handle Cors
     ```python
-    from fastapi.middleware.cors import CORSMiddleware
+    from fastapi.middleware.cors import CORSMiddlewareg
 
     origins = [
     'http://localhost',
