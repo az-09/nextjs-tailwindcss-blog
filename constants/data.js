@@ -8,7 +8,7 @@ export const userData = {
         {
             title: "ERP Search",
             link: "https://erpsearch.taeheechoi.com/",
-            imgUrl: "/erpsearch.jpg",
+            imgUrl: "/erpsearch.png",
             description: [`Search data from multiple ERP systems`,],
             stack: "React, Redux, Elastic UI, JSON server, Faker",
             github: "https://github.com/taeheechoi/nextjs-tailwindcss-blog",
