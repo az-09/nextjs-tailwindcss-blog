@@ -7,7 +7,7 @@ export const userData = {
     projects: [
         {
             title: "ERP Search",
-            link: "https://erpsearch.taeheechoi.com/",
+            link: "https://erpsearching.taeheechoi.com/",
             imgUrl: "/erpsearch.png",
             description: [`Search data from multiple ERP systems`,],
             stack: "React, Redux, Elastic UI, JSON server, Faker",
