@@ -6,7 +6,7 @@ export const userData = {
     email: "programmer.az09@gmail.com",
     projects: [
         {
-            title: "ERP Search",
+            title: "ERP Searching",
             link: "https://erpsearching.taeheechoi.com/",
             imgUrl: "/erpsearch.png",
             description: [`Search data from multiple ERP systems`,],
