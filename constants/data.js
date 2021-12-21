@@ -25,7 +25,7 @@ export const userData = {
         },
         {
             title: "Lotto Combo",
-            link: "https://lottocom.taeheechoi.com",
+            link: "https://lottocombo.taeheechoi.com",
             imgUrl: "/lottocombo.jpg",
             description: [`Analyzing frequency of combinations in lottery winning numbers. - 2021`,],
             stack: "React, Django, Postgres, Docker, AWS",
