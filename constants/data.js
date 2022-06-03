@@ -16,7 +16,7 @@ export const userData = {
         },
         {
             title: "Blog",
-            link: "https://nextjs-tailwindcss-blog-nine.vercel.app/",
+            link: "https://www.taeheechoi.com/",
             imgUrl: "/blog.jpg",
             description: [`My blog to share my learnings in life and programming. - 2021`,],
             stack: "NextJs, Tailwindcss, Vercel",
