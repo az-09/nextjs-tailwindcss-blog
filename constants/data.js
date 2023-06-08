@@ -68,10 +68,9 @@ export const userData = {
     title:
       "I am Taehee Choi passionate about developing applications and automation.",
     description: [
-      `I joined the party of web programming world a little bit late after being around in ERP developments,
-            but I have a big hope that my passion in learning programming will bring me luck and open a door to a world where I can communicate with you.`,
-      `I will share my learnings as much as possible, as easy as possible and as concise as possible with you, so stay tuned.`,
-      `-- Start simple and add a block one at a time -- by me`,
+      `I may have arrived a bit later to the web programming world, having previously immersed myself in ERP developments. However, I hold great hope that my deep passion for learning programming will act as a catalyst, opening doors to a world where meaningful communication with individuals like you thrives.`,
+      `My objective is to share my learnings with you in the most accessible, user-friendly, and concise manner possible. I encourage you to stay connected and keep an eye out for the valuable insights I'll be providing.`,
+      `Thank you for joining me on this exciting journey!`,
     ],
     imgUrl: "/profile.jpg",
   },
